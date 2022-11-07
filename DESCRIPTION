@@ -1,0 +1,24 @@
+Type: Package
+Package: ut
+Title: UKHSA Tools/Utility Tools
+Version: 0.1.0
+Author: Many Authors
+Maintainer: Jared Norman <jared.norman@uct.ac.za>
+Description: Various utility functions for analysis performed on the
+    UKHSA/EY Project on Evaluating COVID-19 Testing Strategies in the UK
+    undertaken in late 2022.
+License: TBD
+Imports: 
+    cli,
+    glue,
+    lifecycle,
+    rlang,
+    vroom,
+    withr
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.2
+Roxygen: list(markdown = TRUE)
